@@ -7,7 +7,7 @@ export default function (sails) {
     defaults: {cron: {}},
 
     initialize: function (cb) {
-      let config = sails.config.cron;
+      let config = sails.config.cron(sails);
       let jobs = Object.keys(config);
 
       sails.on('ready', () => {

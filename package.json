@@ -1,7 +1,7 @@
 {
-  "name": "sails-hook-cron",
-  "version": "0.0.0-semantic-release",
-  "description": "Sails hook for running tasks by cron",
+  "name": "sails-hook-cron-func",
+  "version": "0.0.1",
+  "description": "Sails hook for running tasks by cron, also passes the sails object so you can make use of configs.",
   "license": "MIT",
   "main": "lib/index.js",
   "author": "ghaiklor",
@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ghaiklor/sails-hook-cron.git"
+    "url": "https://github.com/BebliucGeorge/sails-hook-cron"
   },
   "keywords": [
     "sails",
@@ -25,9 +25,9 @@
     "cron"
   ],
   "bugs": {
-    "url": "https://github.com/ghaiklor/sails-hook-cron/issues"
+    "url": "https://github.com/BebliucGeorge/sails-hook-cron/issues"
   },
-  "homepage": "https://github.com/ghaiklor/sails-hook-cron#readme",
+  "homepage": "https://github.com/BebliucGeorge/sails-hook-cron",
   "devDependencies": {
     "babel-cli": "6.18.0",
     "babel-plugin-add-module-exports": "0.2.1",
