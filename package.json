@@ -4,7 +4,7 @@
   "description": "Sails hook for running tasks by cron, also passes the sails object so you can make use of configs.",
   "license": "MIT",
   "main": "lib/index.js",
-  "author": "ghaiklor",
+  "author": "bebliuc",
   "sails": {
     "isHook": true
   },
